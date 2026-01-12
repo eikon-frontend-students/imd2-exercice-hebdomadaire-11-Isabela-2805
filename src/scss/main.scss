@@ -8,6 +8,17 @@ a {
   color: inherit;
 }
 
+.button {
+  display: inline-flex;
+  padding: 10px 30px;
+  align-items: center;
+  gap: 10px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 2px solid #f00;
+}
+
 img,
 video {
   display: block;
