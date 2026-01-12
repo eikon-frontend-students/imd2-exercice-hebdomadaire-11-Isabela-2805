@@ -7,19 +7,33 @@
 a {
   color: inherit;
 }
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Roboto, sans-serif;
+}
 
 .button {
   display: inline-flex;
   padding: 10px 30px;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   color: rgb(255, 0, 0);
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
   border: 2px solid #f00;
 }
 
-img,
+p {
+  color: rgb(0, 0, 0);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  width: 23px;
+}
+
 video {
   display: block;
 }
